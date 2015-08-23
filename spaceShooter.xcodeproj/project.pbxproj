@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CD00DE501B886CC5007ECF7E /* EndScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD00DE4F1B886CC5007ECF7E /* EndScene.swift */; };
+		CD00DE531B88844C007ECF7E /* MagicParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = CD00DE511B88844C007ECF7E /* MagicParticle.sks */; };
+		CD00DE541B88844C007ECF7E /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = CD00DE521B88844C007ECF7E /* spark.png */; };
 		CDD51D151B80851B00D66CB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD51D141B80851B00D66CB3 /* AppDelegate.swift */; };
 		CDD51D171B80851B00D66CB3 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CDD51D161B80851B00D66CB3 /* GameScene.sks */; };
 		CDD51D191B80851B00D66CB3 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD51D181B80851B00D66CB3 /* GameScene.swift */; };
@@ -15,6 +18,9 @@
 		CDD51D201B80851B00D66CB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDD51D1F1B80851B00D66CB3 /* Images.xcassets */; };
 		CDD51D231B80851B00D66CB3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDD51D211B80851B00D66CB3 /* LaunchScreen.xib */; };
 		CDD51D2F1B80851B00D66CB3 /* spaceShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDD51D2E1B80851B00D66CB3 /* spaceShooterTests.swift */; };
+		CDD51D391B8086E100D66CB3 /* heroShip.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD51D381B8086E100D66CB3 /* heroShip.png */; };
+		CDD51D3B1B8086EA00D66CB3 /* ememyShip.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD51D3A1B8086EA00D66CB3 /* ememyShip.png */; };
+		CDD51D3F1B8470C800D66CB3 /* bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = CDD51D3E1B8470C800D66CB3 /* bullet.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CD00DE4F1B886CC5007ECF7E /* EndScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EndScene.swift; path = ../EndScene.swift; sourceTree = "<group>"; };
+		CD00DE511B88844C007ECF7E /* MagicParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MagicParticle.sks; sourceTree = "<group>"; };
+		CD00DE521B88844C007ECF7E /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
 		CDD51D0F1B80851B00D66CB3 /* spaceShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spaceShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD51D131B80851B00D66CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDD51D141B80851B00D66CB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +49,9 @@
 		CDD51D281B80851B00D66CB3 /* spaceShooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spaceShooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CDD51D2D1B80851B00D66CB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDD51D2E1B80851B00D66CB3 /* spaceShooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spaceShooterTests.swift; sourceTree = "<group>"; };
+		CDD51D381B8086E100D66CB3 /* heroShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heroShip.png; sourceTree = "<group>"; };
+		CDD51D3A1B8086EA00D66CB3 /* ememyShip.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ememyShip.png; sourceTree = "<group>"; };
+		CDD51D3E1B8470C800D66CB3 /* bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bullet.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +95,10 @@
 			children = (
 				CDD51D141B80851B00D66CB3 /* AppDelegate.swift */,
 				CDD51D161B80851B00D66CB3 /* GameScene.sks */,
+				CD00DE4F1B886CC5007ECF7E /* EndScene.swift */,
 				CDD51D181B80851B00D66CB3 /* GameScene.swift */,
+				CD00DE511B88844C007ECF7E /* MagicParticle.sks */,
+				CD00DE521B88844C007ECF7E /* spark.png */,
 				CDD51D1A1B80851B00D66CB3 /* GameViewController.swift */,
 				CDD51D1C1B80851B00D66CB3 /* Main.storyboard */,
 				CDD51D1F1B80851B00D66CB3 /* Images.xcassets */,
@@ -96,6 +111,9 @@
 		CDD51D121B80851B00D66CB3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CDD51D3E1B8470C800D66CB3 /* bullet.png */,
+				CDD51D3A1B8086EA00D66CB3 /* ememyShip.png */,
+				CDD51D381B8086E100D66CB3 /* heroShip.png */,
 				CDD51D131B80851B00D66CB3 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -199,9 +217,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDD51D231B80851B00D66CB3 /* LaunchScreen.xib in Resources */,
+				CD00DE541B88844C007ECF7E /* spark.png in Resources */,
+				CDD51D3F1B8470C800D66CB3 /* bullet.png in Resources */,
 				CDD51D201B80851B00D66CB3 /* Images.xcassets in Resources */,
+				CDD51D391B8086E100D66CB3 /* heroShip.png in Resources */,
 				CDD51D171B80851B00D66CB3 /* GameScene.sks in Resources */,
+				CD00DE531B88844C007ECF7E /* MagicParticle.sks in Resources */,
 				CDD51D1E1B80851B00D66CB3 /* Main.storyboard in Resources */,
+				CDD51D3B1B8086EA00D66CB3 /* ememyShip.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,6 +244,7 @@
 			files = (
 				CDD51D191B80851B00D66CB3 /* GameScene.swift in Sources */,
 				CDD51D1B1B80851B00D66CB3 /* GameViewController.swift in Sources */,
+				CD00DE501B886CC5007ECF7E /* EndScene.swift in Sources */,
 				CDD51D151B80851B00D66CB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -419,6 +443,7 @@
 				CDD51D341B80851B00D66CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CDD51D351B80851B00D66CB3 /* Build configuration list for PBXNativeTarget "spaceShooterTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +452,7 @@
 				CDD51D371B80851B00D66CB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
